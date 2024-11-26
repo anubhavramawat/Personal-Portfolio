@@ -696,25 +696,23 @@
       <section class="contact section" id="contact">
         <h2 class="section_title">Contact Me</h2>
 
-        <form action="mailto:ramawatanubhav2002@gmail.com">
+        <form action="https://formsubmit.co/ramawatanubhav2002@gmail.com" method="POST">
         <div class="contact_container container">
           <div class="contact_content">
             <div class="inputs">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
+              <input name="name" type="text" placeholder="Name" />
+              <input name="email" type="email" placeholder="Email" />
             </div>
-            <input type="password" placeholder="Password" />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="10"
               placeholder="Message"
             ></textarea>
-            <a href="#" class="btn">
-              Send Message
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </a>
+            <button type="submit" class="btn">
+              Send Message <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
           </div>
         </div>
         </form>
